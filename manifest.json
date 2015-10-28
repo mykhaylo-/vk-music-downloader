@@ -7,11 +7,6 @@
       "js": [ "jquery_min.js", "contentscript.js" ],
       "matches": [ "https://vk.com/*", "http://vk.com/*" ],
       "run_at": "document_end"
-   }, {
-      "all_frames": false,
-      "js": [ "analytics.js" ],
-      "matches": [ "http://*/*", "https://*/*" ],
-      "run_at": "document_idle"
    } ],
    "description": "Modifies pages with audio(eg. 'My music', 'Suggested music', 'Popular' etc) so you can download files directly from the web page.",
    "icons": {
